@@ -35,8 +35,9 @@ const connectDB = async () => {
 // CORS configuration
 app.use(cors({
   origin: [
-    "http://localhost:5173",         // Local development
-    "https://lovely-biscotti-37408d.netlify.app",         // Local development
+    "http://localhost:5173",    
+    "https://lovely-biscotti-37408d.netlify.app",     
+    "https://tublish.vercel.app",      
     "https://testingproject-bay.vercel.app"  // Production
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
